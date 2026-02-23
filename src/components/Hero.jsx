@@ -3,7 +3,7 @@ import { ArrowLeft } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
+        <section className="relative min-h-[800px] py-20 flex items-center justify-center overflow-hidden">
             {/* Abstract Background with Gradient Overlay */}
             <div className="absolute inset-0 bg-slate-900">
                 {/* Placeholder for actual background image/video */}
@@ -11,9 +11,9 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent"></div>
             </div>
 
-            <div className="relative z-10 text-center px-4 max-w-4xl mx-auto space-y-8 animate-fade-in-up">
+            <div className="relative z-10 text-center px-4 max-w-5xl mx-auto space-y-8 animate-fade-in-up">
                 <div className="inline-block border border-amber-500/60 rounded-full px-4 py-1.5 bg-slate-800/50 backdrop-blur-sm text-amber-400 text-sm font-semibold tracking-wider mb-2">
-                    5 שנים של עשייה ורוח - מהקורונה ועד היום
+                    6 שנים של עשייה ורוח - מהקורונה ועד היום
                 </div>
                 <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight drop-shadow-2xl">
                     גדלות ב<span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-amber-600">תורה</span>.
@@ -25,16 +25,27 @@ const Hero = () => {
                     הישיבה הוקמה בתקופת הקורונה, כדי לתת מענה לבחורים שחיפשו מקום של תורה ועשייה.
                 </p>
 
-                <div className="flex justify-center mt-10">
+                <div className="flex flex-col items-center gap-10 mt-10">
                     <a
                         href="https://nedar.im/7006348M5"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-amber-500 hover:bg-amber-600 text-slate-900 px-10 py-5 rounded-full font-bold text-xl transition-all duration-300 shadow-xl shadow-amber-500/20 flex items-center justify-center gap-3 hover:scale-105 hover:-translate-y-1 transform"
+                        className="w-full md:w-auto bg-amber-500 hover:bg-amber-600 text-slate-900 px-10 py-5 rounded-full font-bold text-xl transition-all duration-300 shadow-xl shadow-amber-500/20 flex items-center justify-center gap-3 hover:scale-105 hover:-translate-y-1 transform"
                     >
                         היו שותפים - לתרומה לישיבה
                         <ArrowLeft className="w-6 h-6" />
                     </a>
+
+                    {/* Integrated Video Player */}
+                    <div className="w-full max-w-3xl aspect-video rounded-3xl overflow-hidden border border-white/20 shadow-2xl bg-slate-800/50 backdrop-blur-xl relative">
+                        <iframe
+                            src="https://drive.google.com/file/d/1n8uRO6tgGSPWsAHwUgZ4K-YL06wp3r7q/preview"
+                            title="סרטון הישיבה"
+                            className="w-full h-full"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </section>

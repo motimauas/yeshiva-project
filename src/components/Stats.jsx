@@ -17,7 +17,7 @@ const Stats = () => {
                     <div className="text-gray-400">אחוזי השמה</div>
                 </div>
                 <div className="space-y-2">
-                    <div className="text-4xl font-bold text-amber-500">5</div>
+                    <div className="text-4xl font-bold text-amber-500">6</div>
                     <div className="text-gray-400">שנות פעילות</div>
                 </div>
             </div>

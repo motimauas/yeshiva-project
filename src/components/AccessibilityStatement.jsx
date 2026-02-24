@@ -47,7 +47,8 @@ const AccessibilityStatement = () => {
                     <p className="font-semibold">
                         פרטי רכז הנגישות: <br />
                         שם: משרד הישיבה <br />
-                        אימייל: office@derech-chaim.org.il
+                        אימייל: yeshivatavodat@gmail.com
+
                     </p>
                 </div>
             </div>

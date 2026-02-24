@@ -23,34 +23,9 @@ const DonationSection = () => {
                     ותומכת במלגות מחיה לתלמידים מצטיינים ומעוטי יכולת.
                 </p>
 
-                <div className="max-w-4xl mx-auto grid md:grid-cols-5 gap-8 items-start">
-                    {/* Left Side: Impact Info */}
-                    <div className="md:col-span-2 space-y-6 text-right order-2 md:order-1">
-                        <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:border-amber-500/30 transition-all group">
-                            <h3 className="text-amber-500 font-bold mb-2 flex items-center justify-end gap-2 text-lg">
-                                מלגות מחיה
-                                <Heart className="w-5 h-5" />
-                            </h3>
-                            <p className="text-gray-400 text-sm">תמיכה ישירה בתלמידים המקדישים את זמנם ללימוד תורה מתוך דוחק.</p>
-                        </div>
-                        <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:border-amber-500/30 transition-all">
-                            <h3 className="text-amber-500 font-bold mb-2 flex items-center justify-end gap-2 text-lg">
-                                פיתוח הקמפוס
-                                <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
-                            </h3>
-                            <p className="text-gray-400 text-sm">הקמת כיתות לימוד חדשות, ספרייה תורנית ומעבדות מחקר.</p>
-                        </div>
-                        <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:border-amber-500/30 transition-all">
-                            <h3 className="text-amber-500 font-bold mb-2 flex items-center justify-end gap-2 text-lg">
-                                פעילות חברתית
-                                <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
-                            </h3>
-                            <p className="text-gray-400 text-sm">שיעורי ערב פתוחים לקהל הרחב ופעילות חסד בקהילה.</p>
-                        </div>
-                    </div>
-
+                <div className="max-w-2xl mx-auto">
                     {/* Right Side: Action Card */}
-                    <div className="md:col-span-3 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl p-10 rounded-[2.5rem] border border-white/20 shadow-2xl relative overflow-hidden order-1 md:order-2">
+                    <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl p-10 rounded-[2.5rem] border border-white/20 shadow-2xl relative overflow-hidden">
                         {/* Decorative glow inside card */}
                         <div className="absolute -top-24 -right-24 w-48 h-48 bg-amber-500 rounded-full blur-[80px] opacity-20"></div>
 

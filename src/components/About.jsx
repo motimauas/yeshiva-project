@@ -3,7 +3,7 @@ import { BookOpen, Briefcase } from 'lucide-react';
 
 const About = () => {
     return (
-        <section id="about" className="py-24 bg-white relative overflow-hidden">
+        <section id="program" className="py-24 bg-white relative overflow-hidden">
             {/* Decorative elements */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-amber-50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 opacity-60"></div>
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-blue-50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 opacity-60"></div>

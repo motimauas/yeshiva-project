@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Hero from './components/Hero';
 import AboutSection from './components/AboutSection';
+import About from './components/About';
 import Stats from './components/Stats';
 import Gallery from './components/Gallery';
 import DonationSection from './components/DonationSection';
@@ -13,6 +14,7 @@ const HomePage = () => (
     <>
         <Hero />
         <AboutSection />
+        <About />
         <Stats />
         <Gallery />
         <DonationSection />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="bg-slate-950 text-gray-400 py-16 border-t border-slate-900">
+        <footer id="contact" className="bg-slate-950 text-gray-400 py-16 border-t border-slate-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-start gap-12 text-right">
 
